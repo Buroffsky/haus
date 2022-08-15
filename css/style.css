@@ -248,3 +248,39 @@ body {
 }
 
 /* production end */
+
+/* Intro start */
+.intro_logo {
+  margin: 0 auto;
+  padding-bottom: 55px;
+}
+.intro_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.intro_title_text {
+  text-align: center;
+  padding-bottom: 95px;
+  padding-right: 15px;
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 80px;
+  color: #000000;
+}
+.intro_subscribe {
+  height: 96px;
+  width: 548px;
+  text-align: center;
+}
+.intro_subscribe_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+/* Intro end */
