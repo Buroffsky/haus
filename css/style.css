@@ -284,3 +284,40 @@ body {
   color: #000000;
 }
 /* Intro end */
+
+/* ingredient start */
+.ingredient {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+.ingredient_text {
+  max-width: 385px;
+  margin-right: 55px;
+}
+
+.ingredient_title_sm {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  margin-bottom: 19px;
+}
+.ingredient_subscribe {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.ingredient_title_lr {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 17px;
+}
+/* ingredient end */
