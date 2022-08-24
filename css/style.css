@@ -639,4 +639,34 @@ body {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer_item {
+  width: 1320px;
+  margin: 0 auto;
+}
+.footer_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 125px;
+  margin-bottom: 55px;
+}
+.footer_link:first-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+}
+.footer_link {
+  margin-right: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
 /* footer end */
