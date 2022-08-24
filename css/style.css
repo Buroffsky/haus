@@ -84,10 +84,8 @@ body {
 .alcohol {
   display: flex;
   flex-wrap: wrap;
-
   height: 800px;
   width: 100%;
-
   z-index: 1;
   background-color: #996b60;
   margin-bottom: 55px;
@@ -320,6 +318,10 @@ body {
   line-height: 44px;
   margin-bottom: 17px;
 }
+.ingredient_image {
+  height: 608px;
+  width: 880px;
+}
 /* ingredient end */
 
 /* comments start */
@@ -433,13 +435,13 @@ body {
 
 /* music start */
 .music {
-  position: relative;
-  margin: 0 auto;
-  width: 1440px;
   height: 568px;
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
 }
 .music_logo {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .music_card {
   position: absolute;
@@ -607,8 +609,6 @@ body {
 
 .footer_right {
   width: 50%;
-  display: flex;
-  flex-wrap: wrap;
 }
 .footer_right_cards {
   display: flex;
@@ -656,8 +656,6 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  /* identical to box height, or 160% */
-
   color: #ffffff;
 }
 .footer_link {
@@ -670,3 +668,96 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /* footer end */
+
+@media (max-width: 1440px) {
+  .music {
+    width: 100%;
+  }
+}
+@media (max-width: 1320px) {
+  .ingredient {
+    align-items: center;
+  }
+  .ingredient_image {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+  }
+  .intro_text {
+    padding: 0px 10px;
+  }
+  .wrapper {
+    padding: 0px 10px;
+  }
+  .footer {
+    padding: 0px 10px;
+  }
+  .footer_right {
+    margin-right: 10px;
+  }
+
+  .footer_content {
+    height: 500px;
+  }
+  .footer {
+    height: 767px;
+  }
+  .footer_left {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 1225px) {
+  .recept {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .recept_image {
+    margin-bottom: 25px;
+  }
+  .recept_text_title {
+    margin-bottom: 55px;
+  }
+  .footer {
+    padding-top: 35px;
+  }
+  .footer_content {
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+  .footer_list {
+    justify-content: center;
+  }
+  .footer_item {
+    width: 1320px;
+    margin: 0 auto;
+  }
+  .footer_list {
+    margin-top: 180px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header_link {
+    margin: 0 20px;
+  }
+  .header_nav {
+    justify-content: center;
+  }
+  .header_logo {
+    margin: 0 80px;
+  }
+}
+@media (max-width: 1165px) {
+  .production_card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about_eat_card {
+    width: 300px;
+  }
+}
