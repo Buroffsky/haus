@@ -540,7 +540,7 @@ body {
   padding-top: 55px;
 }
 .footer_content {
-  width: 1320px;
+  max-width: 1320px;
   height: 368px;
   margin: 0 auto;
   display: flex;
@@ -640,7 +640,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer_item {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 .footer_list {
@@ -736,7 +736,7 @@ body {
     justify-content: center;
   }
   .footer_item {
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
   }
   .footer_list {
