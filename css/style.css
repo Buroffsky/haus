@@ -529,3 +529,114 @@ body {
   color: #ffffff;
 }
 /* music end */
+
+/* footer start  */
+.footer {
+  height: 617px;
+  width: 100%;
+  background-color: #000000;
+  padding-top: 55px;
+}
+.footer_content {
+  width: 1320px;
+  height: 368px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_left {
+  width: 50%;
+}
+.footer_left_title {
+  margin-bottom: 12px;
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 72px;
+  color: #ffffff;
+}
+.footer_leftsubscribe {
+  width: 424px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.email {
+  width: 440px;
+  height: 53px;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.input_email {
+  margin-left: 9px;
+  width: 380px;
+  background-color: #000000;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 14px;
+
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+
+  color: #818181;
+}
+.input_submit {
+  right: 0%;
+  background-color: #000000;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer_right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_right_cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_right_card {
+  margin-top: 10px;
+  width: 218px;
+}
+.footer_right_title {
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer_right_subscribe {
+  margin-bottom: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* footer end */
